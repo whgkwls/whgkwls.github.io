@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family:'PartialSansKR-Regular' ;
+    color :rgb(247, 194, 145);
+    background-color:hsla(52, 91%, 87%, 0.438);
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-style:dotted;
+    border-width: 4px;
+    border-radius: 15px;
+    font-size: 40;
+    box-shadow: 10px 6px 4px #eeaf7c63;
+}
+h2{
+    color:rgb(122, 117, 110);
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style:solid;
+    border-width:2px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+h2::first-letter{
+    font-size: 23px;
+}
+
+h2:hover{
+    background-color: rgba(51, 136, 101, 0.486);
+}
+h2:hover::first-letter{
+    border-color: azure;
+}
+
+p{
+    text-indent: 18px;
+    line-height: 170%;
+    font-family:'HakgyoansimWoojuR';
+    font-size:23px;
+}
