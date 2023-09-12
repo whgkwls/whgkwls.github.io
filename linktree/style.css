@@ -1,0 +1,39 @@
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px;
+}
+
+img{
+    width:150px;
+    height:150px;
+    border-radius: 40px;
+}
+
+
+h1{
+    color: #ffffff;
+}
+
+a{
+    display:block;
+    color: #ffffff;
+    border: 2px solid #073b0294;
+    padding:20px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+a:hover{
+    background-color: #bfb1fd;
+    border-radius: 50px;
+    transform: scale(1.2) rotate(-2deg);
+    letter-spacing: 15px;
+    box-shadow: 5px 5px 5px #00000079;
+    font-weight: bold;
+}
